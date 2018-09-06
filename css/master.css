@@ -1,0 +1,78 @@
+body{
+  background-color: powderblue;
+}
+
+.a {
+  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  /* position: static;
+  overflow: hidden; */
+  border: 1px solid black;
+  border-radius: 1px;
+  padding: 1px 1px 1px 1px;
+  box-sizing: border-box;
+  /* margin-left: 1px; */
+}
+
+.counter{
+  /* background: url(piece1.png) left center no-repeat, url(piece2.png) right center no-repeat; */
+  /* padding:0.5em;
+  width: 40px;
+  height: 40px;
+  color:white; */
+  /* background-color:#26354A; */
+}
+
+.piece1
+{
+  background-image: url("../images/piece1.png");
+  background-color: blue;
+}
+
+.piece2
+{
+  background-image: url("../images/piece1.png");
+  background-color: yellow;
+}
+
+#mainDiv{
+  width: 700px;
+  height: 700px;
+  /* float: left; */
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px 5px 5px 5px;
+  /* overflow: auto; */
+  background-image: url("../images/Board.jpg");
+  background-size: 100%;
+}
+
+.dice{
+  background-image:url("../images/dice.gif");
+  background-size:contain;
+  width:150px;
+  height:150px;
+  float:left;
+}
+
+.one{
+  /* float: left; */
+  border: 1px solid black;
+
+}
+
+.two{
+  /* float: right; */
+  border: 1px solid black;
+
+}
+
+#table{
+  margin-left: 9px;
+  margin-top: -5px
+}
